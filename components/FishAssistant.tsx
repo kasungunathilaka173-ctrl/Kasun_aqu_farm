@@ -1,8 +1,7 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageSquare, X, Send, Bot, User, Sparkles } from 'lucide-react';
-import { askAquaAssistant } from '../services/geminiService';
-import { ChatMessage } from '../types';
+import { askAquaAssistant } from '../services/geminiService.ts';
+import { ChatMessage } from '../types.ts';
 
 const FishAssistant: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);

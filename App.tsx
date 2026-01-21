@@ -1,12 +1,11 @@
-
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import Products from './components/Products';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import FishAssistant from './components/FishAssistant';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import Services from './components/Services.tsx';
+import Products from './components/Products.tsx';
+import Contact from './components/Contact.tsx';
+import Footer from './components/Footer.tsx';
+import FishAssistant from './components/FishAssistant.tsx';
 
 const App: React.FC = () => {
   return (

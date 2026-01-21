@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +15,10 @@
             font-family: 'Playfair Display', serif;
         }
     </style>
+    <script>
+        // Shim process.env for browser compatibility
+        window.process = window.process || { env: {} };
+    </script>
     <script type="importmap">
     {
       "imports": {
@@ -30,7 +33,6 @@
 </head>
 <body class="bg-slate-50 text-slate-900">
     <div id="root"></div>
-    <!-- Missing script tag added here to load the application -->
     <script type="module" src="./index.tsx"></script>
 </body>
 </html>
